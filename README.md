@@ -38,6 +38,12 @@
 - [CNVD-2021-14536_锐捷RG-UAC统一上网行为管理审计系统账号密码信息泄露漏洞](./CNVD-2021-14536_锐捷RG-UAC统一上网行为管理审计系统账号密码信息泄露漏洞.md)
 - [CNVD-2021-14544:Hikvision 海康威视流媒体管理服务器任意文件读取](https://github.com/Henry4E36/Hikvision)
 - [CNVD-2020-25078:D-link 敏感信息泄漏，可以直接获取账户密码查看监控](https://github.com/Henry4E36/D-link-information)
+- [ios-gamed-0day](https://github.com/illusionofchaos/ios-gamed-0day)
+- [ios-nehelper-wifi-info-0day](https://github.com/illusionofchaos/ios-nehelper-wifi-info-0day)
+- [ios-nehelper-enum-apps-0day](https://github.com/illusionofchaos/ios-nehelper-enum-apps-0day)
+- [iOS 15.0.1 RCE PoC](https://github.com/jonathandata1/ios_15_rce)
+- [CVE-2021-36260：海康威视产品命令注入漏洞](https://watchfulip.github.io/2021/09/18/Hikvision-IP-Camera-Unauthenticated-RCE.html)
+- [CVE-2021-33044、CVE-2021-33045 大华摄像头POC](https://github.com/mcw0/DahuaConsole)|[相关分析](https://github.com/mcw0/PoC/blob/master/Dahua%20authentication%20bypass.txt)|[登录绕过chrome 插件](https://github.com/bp2008/DahuaLoginBypass)
 
 ## <span id="head4">Web APP</span>
 
@@ -159,7 +165,7 @@
 - [通达OA前台任意用户伪造登录漏洞批量检测](./通达OA前台任意用户伪造登录漏洞批量检测.md)
 - [CVE-2020-11890 JoomlaRCE <3.9.17  远程命令执行漏洞(需要有效的账号密码)](https://github.com/HoangKien1020/CVE-2020-11890)
 - [CVE-2020-10238【JoomlaRCE <= 3.9.15 远程命令执行漏洞(需要有效的账号密码)】&CVE-2020-10239【JoomlaRCE 3.7.0 to 3.9.15 远程命令执行漏洞(需要有效的账号密码)】](https://github.com/HoangKien1020/CVE-2020-10238)
-- [CVE-2020-2546，CVE-2020-2915 CVE-2020-2801 CVE-2020-2798 CVE-2020-2883 CVE-2020-2884 CVE-2020-2950 WebLogic T3 payload exploit poc python3](https://github.com/hktalent/CVE_2020_2546)|[CVE-2020-2883-Weblogic coherence.jar RCE](https://github.com/Y4er/CVE-2020-2883)|[WebLogic-Shiro-shell-WebLogic利用CVE-2020-2883打Shiro rememberMe反序列化漏洞，一键注册filter内存shell](https://github.com/Y4er/WebLogic-Shiro-shell)|[shiro_rce_tool：可能是最好用的shiro利用工具](https://github.com/wyzxxz/shiro_rce_tool)
+- [CVE-2020-2546，CVE-2020-2915 CVE-2020-2801 CVE-2020-2798 CVE-2020-2883 CVE-2020-2884 CVE-2020-2950 WebLogic T3 payload exploit poc python3](https://github.com/hktalent/CVE_2020_2546)|[CVE-2020-2883-Weblogic coherence.jar RCE](https://github.com/Y4er/CVE-2020-2883)|[WebLogic-Shiro-shell-WebLogic利用CVE-2020-2883打Shiro rememberMe反序列化漏洞，一键注册filter内存shell](https://github.com/Y4er/WebLogic-Shiro-shell)|[shiro_rce_tool：可能是最好用的shiro利用工具](https://github.com/wyzxxz/shiro_rce_tool)|[ShiroExploit：ShiroExploit 是一款 Shiro 可视化利用工具，集成密钥爆破，命令回显内存马注入等功能](https://github.com/KpLi0rn/ShiroExploit)
 - [tongda_oa_rce-通达oa 越权登录+文件上传getshell](https://github.com/clm123321/tongda_oa_rce)
 - [CVE-2020-11651-SaltStack Proof of Concept【认证绕过RCE漏洞】](https://github.com/0xc0d/CVE-2020-11651)|[CVE-2020-11651&&CVE-2020-11652 EXP](https://github.com/heikanet/CVE-2020-11651-CVE-2020-11652-EXP)
 - [showdoc的api_page存在任意文件上传getshell](./showdoc的api_page存在任意文件上传getshell.md)
@@ -212,6 +218,14 @@
 - [CVE-2021-26295-POC](https://github.com/yumusb/CVE-2021-26295-POC)
 - [eyouRCE：（CNVD-2021-26422）亿邮电子邮件系统 远程命令执行漏洞 python版本](https://github.com/Henry4E36/eyouRCE)|[EYouMailRCE：jar单文件版本](https://github.com/Tas9er/EYouMailRCE)
 - [ThinkPHP3.2.x RCE漏洞](./books/ThinkPHP3.2.x%20RCE漏洞通报.pdf)
+- [Apache Solr SSRF(CVE-2021-27905)](https://github.com/Henry4E36/Solr-SSRF)
+- [Coremail任意文件上传漏洞POC,支持单个或者批量检测](https://github.com/jimoyong/CoreMailUploadRce)
+- [CVE-2021-26086 ：Atlassian Jira Server/Data Center 8.4.0 File Read 漏洞](https://github.com/ColdFusionX/CVE-2021-26086)
+- [CVE-2021-41773 CVE-2021-42013漏洞批量检测工具：Apache 2.4.49 和 2.4.50版本任意文件读取和命令执行漏洞绕过利用工具](https://github.com/inbug-team/CVE-2021-41773_CVE-2021-42013)
+- [CVE-2021-24499：Workreap Theme 小于2.2.1 未授权任意文件上传导致 RCE](https://github.com/RyouYoo/CVE-2021-24499)
+- [CVE-2021-30632：chrome V8越界写入漏洞可至内存损坏](https://github.com/Phuong39/PoC-CVE-2021-30632)
+- [laravel-exploits：Exploit for CVE-2021-3129](https://github.com/ambionics/laravel-exploits)
+- [CVE-2021-21234：Spring Boot 目录遍历](https://github.com/xiaojiangxl/CVE-2021-21234)
 
 ## <span id="head5"> 提权辅助相关</span>
 
@@ -361,6 +375,18 @@
 - [CVE-2021-34473：Microsoft Exchange Server Remote Code Execution](https://github.com/phamphuqui1998/CVE-2021-34473)|[proxyshell-auto：自动化的ProxyShell漏洞利用](https://github.com/Udyz/proxyshell-auto)
 
 - [【Linux 提权】CVE-2021-33909：Linux kernel 本地提权漏洞](https://github.com/ChrisTheCoolHut/CVE-2021-33909)
+
+- [CVE-2021-40444：Windows MSHTML 0day漏洞](https://github.com/lockedbyte/CVE-2021-40444)
+
+- [PrintNightmare：CVE-2021-1675 / CVE-2021-34527 exploit](https://github.com/outflanknl/PrintNightmare)
+
+- [CVE-2021-40444：MSHTML代码执行漏洞 RCE](https://github.com/lockedbyte/CVE-2021-40444)
+
+- [CVE-2021-37980：Google Chrome 沙箱漏洞 POC](https://github.com/ZeusBox/CVE-2021-37980)
+
+- [CVE-2021-40449 EXP about windows 10 14393 LPE](https://github.com/KaLendsi/CVE-2021-40449-Exploit)
+
+- [CVE-2021-22005：VMware vCenter Server任意文件上传漏洞](https://github.com/r0ckysec/CVE-2021-22005)
 
 ## <span id="head7"> tools-小工具集版本合</span>
 
@@ -802,7 +828,50 @@
 - [【内网】RestrictedAdmin：远程启用受限管理员模式](https://github.com/GhostPack/RestrictedAdmin)
 - [NewNtdllBypassInlineHook_CSharp：通过文件映射加载 ntdll.dll 的新副本以绕过 API 内联hook](https://github.com/Kara-4search/NewNtdllBypassInlineHook_CSharp)
 - [spp：简单强大的多协议双向代理工具 A simple and powerful proxy](https://github.com/esrrhs/spp)
-- [AVByPass：一款Web在线自动免杀工具（利用 Python 反序列化免杀）](https://github.com/yhy0/AVByPass)
+- [【免杀】AVByPass：一款Web在线自动免杀工具（利用 Python 反序列化免杀）](https://github.com/yhy0/AVByPass)
+- [【免杀】ZheTian：免杀shellcode加载框架](https://github.com/yqcs/ZheTian)
+- [LSTAR：CobaltStrike 综合后渗透插件](https://github.com/lintstar/LSTAR)
+- [SharpSQLTools：有了 sqlserver 权限后，可用来上传下载文件，xp_cmdshell与sp_oacreate执行命令回显和clr加载程序集执行相应操作](https://github.com/uknowsec/SharpSQLTools)
+- [spring-boot-webshell：但文件版 spring-boot webshell环境](https://github.com/durkworf/spring-boot-webshell)|[SpringBootWebshell：Springboot的一个webshell](https://github.com/fupinglee/SpringBootWebshell)
+- [java-object-searcher：java内存对象搜索辅助工具](https://github.com/c0ny1/java-object-searcher)
+- [GTFOBins：通过Linux 系统中错误的配置来提升权限](https://gtfobins.github.io/)
+- [QueenSono: 使用 ICMP 协议进行数据渗透](https://github.com/ariary/QueenSono)
+- [Pollenisator: 具有高度可定制工具的协作渗透测试工具](https://github.com/AlgoSecure/Pollenisator)
+- [arsenal：常用黑客程序的命令补全快速启动工具](https://github.com/Orange-Cyberdefense/arsenal)
+- [AllatoriCrack：破解 Java 混淆工具 Allatori](https://github.com/lqs1848/AllatoriCrack)
+- [CuiRi：一款红队专用免杀木马生成器，基于shellcode生成绕过所有杀软的木马](https://github.com/NyDubh3/CuiRi)
+- [Xjar_tips：Spring Boot JAR 安全加密运行工具, 同时支持的原生JAR](https://github.com/jas502n/Xjar_tips)
+- [druid_sessions：提取 Druid 的 session 工具](https://github.com/yuyan-sec/druid_sessions)
+- [xmap：快速网络扫描器, 专为执行互联网范围内的 IPv6 和IPv4 网络研究扫描而设计](https://github.com/idealeer/xmap)
+- [WAF-bypass-xss-payloads：一直更新的 bypass waf 的 XSS payload 仓库](https://github.com/Walidhossain010/WAF-bypass-xss-payloads)
+- [vshell：基于蚁剑控制台编写的rat，使用蚁剑远程控制主机](https://github.com/veo/vshell)
+- [CVE-2021-21985：VMware vCenter Server远程代码执行漏洞](https://github.com/testanull/Project_CVE-2021-21985_PoC)|[可回显的POC](https://github.com/r0ckysec/CVE-2021-21985)
+- [FuckAV：python写的一款免杀工具（shellcode加载器）BypassAV](https://github.com/iframepm/FuckAV)
+- [【免杀】avcleaner：通过分析抽象语法树的方式进行字符串混淆并重写系统调用来隐藏API函数的使用，使其绕过杀软的静态文件扫描和动态的API函数行为检测](https://github.com/scrt/avcleaner)
+- [cDogScan：又一款多服务口令爆破、内网常见服务未授权访问探测，端口扫描工具](https://github.com/fuzz7j/cDogScan)
+- [henggeFish：自动化批量发送钓鱼邮件](https://github.com/SkewwG/henggeFish)
+- [EXOCET-AV-Evasion：可绕过杀软的 Payload 投递工具](https://github.com/tanc7/EXOCET-AV-Evasion)
+- [DNSlog-GO：DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面](https://github.com/lanyi1998/DNSlog-GO)
+- [SCFProxy：一个利用腾讯云函数服务做 HTTP 代理、SOCKS5 代理、反弹 shell、C2 域名隐藏的工具](https://github.com/shimmeris/SCFProxy)
+- [firezone：通过 web 界面来管理 wireguard ](https://github.com/firezone/firezone)
+- [Atlas：帮助你快速筛选测试能够绕过 waf 的 sqlmap tamper](https://github.com/m4ll0k/Atlas)
+- [cobaltstrike-bof-toolset：在cobaltstrike中使用的bof工具集，收集整理验证好用的bof](https://github.com/AttackTeamFamily/cobaltstrike-bof-toolset)
+- [domainNamePredictor：一个简单的现代化公司域名使用规律预测及生成工具](https://github.com/LandGrey/domainNamePredictor)
+- [GoScan：采用Golang语言编写的一款分布式综合资产管理系统，适合红队、SRC等使用](https://github.com/CTF-MissFeng/GoScan)
+- [Finger：一款红队在大量的资产中存活探测与重点攻击系统指纹探测工具](https://github.com/EASY233/Finger)
+- [ast-hook-for-js-RE：浏览器内存漫游解决方案（JS逆向）](https://github.com/CC11001100/ast-hook-for-js-RE)
+- [SharpOXID-Find：OXID_Find by Csharp（多线程） 通过OXID解析器获取Windows远程主机上网卡地址](https://github.com/uknowsec/SharpOXID-Find)
+- [yak gRPC Client GUI - 集成化单兵工具平台](https://github.com/yaklang/yakit)
+- [reFlutter：辅助逆向Flutter生成的APP](https://github.com/ptswarm/reFlutter)
+- [SillyRAT：跨平台、多功能远控](https://github.com/hash3liZer/SillyRAT)
+- [HandleKatz: 使用 Lsass 的克隆句柄来创建相同的混淆内存转储](https://github.com/codewhitesec/HandleKatz)
+- [HTTPUploadExfil: 用于渗透数据/文件的简易 HTTP 服务器](https://github.com/IngoKl/HTTPUploadExfil)
+- [CSAgent：CobaltStrike 4.x通用白嫖及汉化加载器](https://github.com/Twi1ight/CSAgent)|[备份下载](./tools/CSAgent.zip)
+- [nemo_go：用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率](https://github.com/hanc00l/nemo_go)
+- [SpringBootExploit：根据Spring Boot Vulnerability Exploit Check List清单编写，目的hvv期间快速利用漏洞、降低漏洞利用门槛](https://github.com/0x727/SpringBootExploit)|[备份下载](./tools/SpringBootExploit-1.1-SNAPSHOT-all.jar)
+- [WiFiDuck：一款通过无线键盘来注入攻击的近源渗透攻击](https://github.com/SpacehuhnTech/WiFiDuck)
+- [AggressorScripts_0x727：Cobalt Strike AggressorScripts For Red Team](https://github.com/0x727/AggressorScripts_0x727)
+- [android_virtual_cam：xposed安卓虚拟摄像头-可绕过部分人脸检测](https://github.com/w2016561536/android_virtual_cam)
 
 ## <span id="head8"> 文章/书籍/教程相关</span>
 
@@ -1116,6 +1185,17 @@
 -  [从JDBC到h2 database任意命令执行](./books/从JDBC到h2%20database任意命令执行.pdf)
 -  [Confluence Servers RCE 漏洞(CVE-2021-26084)分析](https://github.com/httpvoid/writeups/blob/main/Confluence-RCE.md)
 -  [secguide：面向开发人员梳理的代码安全指南](https://github.com/Tencent/secguide)
+-  [JDBC-Attack：当 JDBC Connection URL 可控的情况下，可以做那些攻击](https://github.com/su18/JDBC-Attack)
+-  [从ByteCTF到bypass_disable_function](./books/从ByteCTF到bypass_disable_function.pdf)
+-  [利用安全描述符隐藏服务后门进行权限维持](./books/利用安全描述符隐藏服务后门进行权限维持.pdf)
+-  [理解 Windows 域渗透-Understanding_Windows_Lateral_Movements](./books/理解%20Windows%20域渗透-Understanding_Windows_Lateral_Movements.pdf)
+-  [DLL劫持快速挖掘教程](./books/DLL劫持快速挖掘教程.pdf)
+-  [Bypass_AV - Windows Defender](./books/Bypass_AV%20-%20Windows%20Defender.pdf)
+-  [Chasing a Dream-Pre-authenticated Remote Code Execution in Dedecms](./books/Chasing%20a%20Dream-Pre-authenticated%20Remote%20Code%20Execution%20in%20Dedecms.pdf)
+-  [RMI反序列化及相关工具反制浅析](./books/RMI反序列化及相关工具反制浅析.pdf)
+-  [waf绕过之标签绕过](./books/waf绕过之标签绕过.pdf)
+-  [oracle注入绕狗](./books/oracle注入绕狗.pdf)
+-  [内网学习笔记合集_TeamsSix.pdf](./books/内网学习笔记合集_TeamsSix.pdf.7z)
 
 ## <span id="head9"> 说明</span>
 
