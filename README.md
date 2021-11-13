@@ -226,6 +226,7 @@
 - [CVE-2021-30632：chrome V8越界写入漏洞可至内存损坏](https://github.com/Phuong39/PoC-CVE-2021-30632)
 - [laravel-exploits：Exploit for CVE-2021-3129](https://github.com/ambionics/laravel-exploits)
 - [CVE-2021-21234：Spring Boot 目录遍历](https://github.com/xiaojiangxl/CVE-2021-21234)
+- [CVE-2021-22205：gitlab ce 文件上传 ExifTool导致命令执行 的 RCE 漏洞](https://github.com/RedTeamWing/CVE-2021-22205)
 
 ## <span id="head5"> 提权辅助相关</span>
 
@@ -233,7 +234,7 @@
 - [windows 溢出提权小记](https://klionsec.github.io/2017/04/22/win-0day-privilege/)/[本地保存了一份+Linux&Windows提取脑图](./tools/Local%20Privilege%20Escalation.md)
 - [Windows常见持久控制脑图](./tools/Windows常见持久控制.png)
 - [CVE-2019-0803 Win32k漏洞提权工具](./CVE-2019-0803)
-- [脏牛Linux提权漏洞](https://github.com/Brucetg/DirtyCow-EXP)-[reverse_dirty-更改的脏牛提权代码，可以往任意文件写入任意内容](https://github.com/Rvn0xsy/reverse_dirty)
+- [脏牛Linux提权漏洞](https://github.com/Brucetg/DirtyCow-EXP)-[reverse_dirty-更改的脏牛提权代码，可以往任意文件写入任意内容](https://github.com/Rvn0xsy/reverse_dirty)|[linux_dirty：更改后的脏牛提权代码，可以往任意文件写入任意内容，去除交互过程](https://github.com/Rvn0xsy/linux_dirty)
 - [远控免杀从入门到实践之白名单（113个）](https://github.com/TideSec/BypassAntiVirus)|[远控免杀从入门到实践之白名单（113个）总结篇.pdf](./books/远控免杀从入门到实践之白名单（113个）总结篇.pdf)
 - [Linux提权-CVE-2019-13272  A linux kernel Local Root Privilege Escalation vulnerability with PTRACE_TRACEME](https://github.com/jiayy/android_vuln_poc-exp/tree/master/EXP-CVE-2019-13272-aarch64)
 - [Linux权限提升辅助一键检测工具](https://github.com/mzet-/linux-exploit-suggester)
@@ -388,6 +389,8 @@
 
 - [CVE-2021-22005：VMware vCenter Server任意文件上传漏洞](https://github.com/r0ckysec/CVE-2021-22005)
 
+- [CVE-2021-40539：ManageEngine ADManager Plus 未授权访问RCE](https://github.com/synacktiv/CVE-2021-40539)
+
 ## <span id="head7"> tools-小工具集版本合</span>
 
 - [java环境下任意文件下载情况自动化读取源码的小工具](https://github.com/Artemis1029/Java_xmlhack)
@@ -481,7 +484,7 @@
 - [java-jdwp远程调试利用](https://github.com/Lz1y/jdwp-shellifier)|相关文章:[jdwp远程调试与安全](https://qsli.github.io/2018/08/12/jdwp/)
 - [社会工程学密码生成器，是一个利用个人信息生成密码的工具](https://github.com/zgjx6/SocialEngineeringDictionaryGenerator)
 - [云业CMS(yunyecms)的多处SQL注入审计分析](./books/云业CMS(yunyecms)的多处SQL注入审计分析.pdf)|[原文地址](https://xz.aliyun.com/t/7302)|[官网下载地址](http://www.yunyecms.com/index.php?m=version&c=index&a=index)|[sqlmap_yunyecms_front_sqli_tamp.py](./tools/sqlmap_yunyecms_front_sqli_tamp.py)
-- [www.flash.cn 的钓鱼页，中文+英文](https://github.com/r00tSe7en/Fake-flash.cn)
+- [www.flash.cn 的钓鱼页，中文+英文](https://github.com/r00tSe7en/Fake-flash.cn)|[Flash-Pop：flash 钓鱼弹窗优化版](https://github.com/r00tSe7en/Flash-Pop)|[Flash-Pop2：Flash-Pop升级版](https://github.com/chroblert/Flash-Pop2)
 - [织梦dedecms全版本漏洞扫描](https://github.com/Mr-xn/dedecmscan)
 - [CVE、CMS、中间件漏洞检测利用合集 Since 2019-9-15](https://github.com/mai-lang-chai/Middleware-Vulnerability-detection)
 - [Dirble -快速目录扫描和爬取工具【比dirsearch和dirb更快】](https://github.com/nccgroup/dirble)
@@ -872,6 +875,20 @@
 - [WiFiDuck：一款通过无线键盘来注入攻击的近源渗透攻击](https://github.com/SpacehuhnTech/WiFiDuck)
 - [AggressorScripts_0x727：Cobalt Strike AggressorScripts For Red Team](https://github.com/0x727/AggressorScripts_0x727)
 - [android_virtual_cam：xposed安卓虚拟摄像头-可绕过部分人脸检测](https://github.com/w2016561536/android_virtual_cam)
+- [X-WebScan：Vulcan2.0|分布式扫描器|漏洞扫描|指纹识别](https://github.com/RedTeamWing/X-WebScan)
+- [Taie-AutoPhishing：剑指钓鱼基建快速部署自动化](https://github.com/taielab/Taie-AutoPhishing)
+- [rotateproxy：利用fofa搜索socks5开放代理进行代理池轮切的工具](https://github.com/akkuman/rotateproxy)
+- [PassDecode-jar：帆软/致远密码解密工具](https://github.com/Rvn0xsy/PassDecode-jar)
+- [pwcrack-framework：是一个用Ruby编写的密码自动破解框架，目前提供了 25 个在线破解和 25 个离线破解接口，支持 48 种算法破解](https://github.com/L-codes/pwcrack-framework)
+- [通过编写 CS 的信标文件(BOF)来进行shellcode 注入、执行等操作](https://github.com/boku7/HOLLOW)
+- [CS-Situational-Awareness-BOF：大量已经编译好的 CS 信标文件](https://github.com/trustedsec/CS-Situational-Awareness-BOF)
+- [HostCollision：用于host碰撞而生的小工具,专门检测渗透中需要绑定hosts才能访问的主机或内部系统](https://github.com/pmiaowu/HostCollision)
+- [Hosts_scan：用于IP和域名碰撞匹配访问的小工具，旨意用来匹配出渗透过程中需要绑定hosts才能访问的弱主机或内部系统](https://github.com/fofapro/Hosts_scan)
+- [自动化Host碰撞工具，帮助红队快速扩展网络边界，获取更多目标点](https://github.com/cckuailong/hostscan)
+- [JSPHorse：结合反射调用、Javac动态编译、ScriptEngine调用JS技术和各种代码混淆技巧的一款免杀JSP Webshell生成工具，已支持蚁剑免杀](https://github.com/EmYiQing/JSPHorse)
+- [gitlab-version-nse：用于gitlab 版本探测以及漏洞信息检索的 Nmap 脚本](https://github.com/righel/gitlab-version-nse)
+- [natpass：新一代NAT内网穿透+shell+vnc工具](https://github.com/lwch/natpass)
+- [rs_shellcode：rust 语言编写的 shellcode 加载器](https://github.com/b1tg/rs_shellcode)
 
 ## <span id="head8"> 文章/书籍/教程相关</span>
 
@@ -1196,6 +1213,14 @@
 -  [waf绕过之标签绕过](./books/waf绕过之标签绕过.pdf)
 -  [oracle注入绕狗](./books/oracle注入绕狗.pdf)
 -  [内网学习笔记合集_TeamsSix.pdf](./books/内网学习笔记合集_TeamsSix.pdf.7z)
+-  [CobaltStrike_RedTeam_CheatSheet：一些实战中CS常用的小技巧](https://github.com/wsummerhill/CobaltStrike_RedTeam_CheatSheet)
+-  [CmsEasy代码审计](./books/CmsEasy代码审计.pdf)
+-  [AppCMS_v2.0_代码审计](./books/AppCMS_v2.0_代码审计.pdf)
+-  [记一次曲折的WAF绕过](./books/记一次曲折的WAF绕过.pdf)
+-  [flask_memory_shell：Flask 内存马](https://github.com/iceyhexman/flask_memory_shell)
+-  [Telegram下的C2创建过程](./books/Telegram下的C2创建过程.pdf)
+-  [PbootCms-3.04前台RCE挖掘过](./books/PbootCms-3.04前台RCE挖掘过.pdf)
+-  [pBootCMS 3.0.4 前台注入漏洞复现](./books/pBootCMS%203.0.4%20前台注入漏洞复现.pdf)
 
 ## <span id="head9"> 说明</span>
 
@@ -1206,17 +1231,18 @@
 > 3.如果项目中涉及到你的隐私或者需要删除的，请issue留言指名具体文件内容，附上你的证明，或者邮箱联系我，核实后即刻删除。  
 
 <details>  
-<summary>其他杂项</summary>
+<summary>其他杂项</summary>  
+
 ### 喜讯
 
 在`2020-08-16`登上`GitHub`的`Trending`日榜，谢谢大家支持，谢谢那些在freebuf和公众号推荐的师傅，我会继续努力，期待有靠谱的师傅一起来维护优化，感兴趣的邮箱联系我吧！
 ![](./img/trending.png)  
 
+</details>  
+
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/Mr-xn/Penetration_Testing_POC.svg)](https://starchart.cc/Mr-xn/Penetration_Testing_POC)
-
-</details>  
 
 ### 最后，选一个屁股吧！
 
