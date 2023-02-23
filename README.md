@@ -60,6 +60,7 @@
 - [hikvision_CVE-2017-7921_auth_bypass_config_decryptor：解密受CVE-2017-7921影响的海康威视的配置文件](https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [CVE-2022-20866：思科自适应安全设备软件和 Firepower 威胁防御软件 RSA 私钥泄漏检查](https://github.com/CiscoPSIRT/CVE-2022-20866)
 - [WLAN-AP-WEA453e RCE:三星路由器远程命令执行漏洞](./WLAN-AP-WEA453e%20RCE三星路由器远程命令执行漏洞.md)
+- [Buffer overflow in Xiongmai DVRs](https://blog.ret2.me/post/2022-01-26-exploiting-xiongmai-dvrs/)|[备份](https://web.archive.org/web/20221129205148/https://blog.ret2.me/post/2022-01-26-exploiting-xiongmai-dvrs/)
 
 ## <span id="head4">Web APP</span>
 
@@ -292,6 +293,12 @@
 - [CVE-2022-31269：Nortek Control Linear eMerge E3-Series 信息泄露](https://github.com/Henry4E36/CVE-2022-31269)
 - [CNVD-2022-60632 畅捷通任意文件上传漏洞复现](https://www.o2oxy.cn/4104.html)|[备份](https://web.archive.org/web/20220914104920/https://www.o2oxy.cn/4104.html)|[备份2](https://archive.ph/wip/j1Ekr)
 - [teleport 堡垒机任意用户登录漏洞](https://www.o2oxy.cn/4132.html)|[备份](https://www.o2oxy.cn/4132.html)|[备份1](https://archive.ph/wip/t9xm1)|[备份2](https://web.archive.org/web/20220914105304/https://www.o2oxy.cn/4132.html)
+- [CVE-2022-40127：Apache Airflow < 2.4.0 DAG example_bash_operator RCE POC](https://github.com/Mr-xn/CVE-2022-40127)
+- [CVE-2022-36537:ZK framework authentication bypass & connectWise r1Soft server backup manager remote code execution.](https://github.com/numencyber/VulnerabilityPoC/blob/main/CVE-2022-36537/cve-2022-36537.py)
+- [CVE-2022-40684:  Fortinet FortiOS, FortiProxy, and FortiSwitchManager身份认证绕过漏洞](https://github.com/horizon3ai/CVE-2022-40684)
+- [Weblogic-CVE-2023-21839：Oracle WebLogic Server远程代码执行](https://github.com/DXask88MA/Weblogic-CVE-2023-21839)
+- [CVE-2022-39952：FortiNAC keyUpload zipslip 远程代码执行漏洞](https://github.com/horizon3ai/CVE-2022-39952)
+- [CVE-2022-21587：Oracle E-Business Suite 未授权RCE](https://github.com/hieuminhnv/CVE-2022-21587-POC)|[Oracle E-BS CVE-2022-21587 Exploit Plugin for woodpecker-framwork](https://github.com/Zh1z3ven/Oracle-E-BS-CVE-2022-21587-Exploit)
 
 ## <span id="head5"> 提权辅助相关</span>
 
@@ -314,7 +321,7 @@
 - [CVE-2020-0796 - Windows SMBv3 LPE exploit #SMBGhost](https://github.com/danigargu/CVE-2020-0796)|[【Windows提取】Windows SMBv3 LPE exploit 已编译版.exe](https://github.com/f1tz/CVE-2020-0796-LPE-EXP)|[SMBGhost_RCE_PoC-远程代码执行EXP](https://github.com/chompie1337/SMBGhost_RCE_PoC)|[Windows_SMBv3_RCE_CVE-2020-0796漏洞复现](./books/Windows_SMBv3_RCE_CVE-2020-0796漏洞复现.pdf)|[CVE-2020-0796](https://github.com/ran-sama/CVE-2020-0796)
 - [getAV---windows杀软进程对比工具单文件版](./tools/getAV/)
 - [【Windows提权工具】Windows 7 to Windows 10 / Server 2019](https://github.com/CCob/SweetPotato)|[搭配Cobalt Strike的修改版可上线system权限的session](https://github.com/lengjibo/RedTeamTools/tree/master/windows/SweetPotato)|[RoguePotato：又一个 Windows 提权工具](https://github.com/antonioCoco/RoguePotato)
-- [【Windows提权工具】SweetPotato修改版，用于webshell下执行命令](https://github.com/uknowsec/SweetPotato)|[本地编译好的版本](./tools/SweetPotato.zip)|[点击下载或右键另存为](https://raw.githubusercontent.com/Mr-xn/Penetration_Testing_POC/master/tools/SweetPotato.zip)|[SweetPotato_webshell下执行命令版.pdf](./books/SweetPotato_webshell下执行命令版.pdf)|[JuicyPotato修改版-可用于webshell](https://github.com/uknowsec/JuicyPotato)|[JuicyPotatoNG：另一个 juicypotato](https://github.com/antonioCoco/JuicyPotatoNG)
+- [【Windows提权工具】SweetPotato修改版，用于webshell下执行命令](https://github.com/uknowsec/SweetPotato)|[本地编译好的版本](./tools/SweetPotato.zip)|[点击下载或右键另存为](https://raw.githubusercontent.com/Mr-xn/Penetration_Testing_POC/master/tools/SweetPotato.zip)|[SweetPotato_webshell下执行命令版.pdf](./books/SweetPotato_webshell下执行命令版.pdf)|[JuicyPotato修改版-可用于webshell](https://github.com/uknowsec/JuicyPotato)|[JuicyPotatoNG：另一个 juicypotato](https://github.com/antonioCoco/JuicyPotatoNG)|[DCOMPotato: Some Service DCOM Object and SeImpersonatePrivilege abuse.](https://github.com/zcgonvh/DCOMPotato)
 - [【bypass UAC】Windows 8.1 and 10 UAC bypass abusing WinSxS in "dccw.exe"](https://github.com/L3cr0f/DccwBypassUAC/)
 - [【Windows提权】CVE-2018-8120 Exploit for Win2003 Win2008 WinXP Win7](https://github.com/alpha1ab/CVE-2018-8120)
 - [【Windows提权 Windows 10&Server 2019】PrintSpoofer-Abusing Impersonation Privileges on Windows 10 and Server 2019](https://github.com/itm4n/PrintSpoofer)|[配合文章食用-pipePotato复现](./books/pipePotato复现.pdf)|[Windows 权限提升 BadPotato-已经在Windows 2012-2019 8-10 全补丁测试成功](https://github.com/BeichenDream/BadPotato)
@@ -334,7 +341,7 @@
 - [【windows提权】利用有漏洞的技嘉驱动程序来加载恶意的驱动程序提升权限或干掉驱动级保护的杀软](https://github.com/alxbrn/gdrv-loader)|[备份地址](https://github.com/Mr-xn/gdrv-loader)
 - [【windows提权】byeintegrity-uac：通过劫持位于本机映像缓存中的DLL绕过UAC](https://github.com/AzAgarampur/byeintegrity-uac)
 - [【Windows 提权】InstallerFileTakeOver：Windows Installer 本地提权漏洞PoC](https://github.com/klinix5/InstallerFileTakeOver)
-- [【Linux 提权】CVE-2021-4034：Linux Polkit 权限提升漏洞（pkexec）](https://github.com/berdav/CVE-2021-4034)|[PwnKit：cve-2021-4034](https://github.com/ly4k/PwnKit)|[cve-2021-4034：单命令执行版本](https://github.com/wudicainiao/cve-2021-4034)|[CVE-2021-4034-NoGCC：CVE-2021-4034简单优化，以应对没有安装gcc和make的目标环境](https://github.com/EstamelGG/CVE-2021-4034-NoGCC)
+- [【Linux 提权】CVE-2021-4034：Linux Polkit 权限提升漏洞（pkexec）](https://github.com/berdav/CVE-2021-4034)|[PwnKit：cve-2021-4034，可获得交互式shell或者执行单个命令](https://github.com/ly4k/PwnKit)|[cve-2021-4034：单命令执行版本](https://github.com/wudicainiao/cve-2021-4034)|[CVE-2021-4034-NoGCC：CVE-2021-4034简单优化，以应对没有安装gcc和make的目标环境](https://github.com/EstamelGG/CVE-2021-4034-NoGCC)
 - [【Windows 提权】CVE-2022-21882：win32k LPE bypass CVE-2021-1732](https://github.com/KaLendsi/CVE-2022-21882)|[又一个CVE-2022-21882提权工具](https://github.com/L4ys/CVE-2022-21882)
 - [【Windows 提权】CVE-2022-21999：Windows 打印机提权漏洞（此漏洞是去年打印机提权漏洞Printnightmare的续集）](https://github.com/ly4k/SpoolFool)
 - [【Windows 提权】CVE-2022-29072：7-Zip帮助页面命令注入漏洞](https://github.com/kagancapar/CVE-2022-29072)
@@ -356,9 +363,10 @@
 - [【Linux 提权】CVE-2022-1972-infoleak-PoC：Linux-netfilter-越界写入漏洞](https://github.com/randorisec/CVE-2022-1972-infoleak-PoC)
 - [【Linux 提权】CVE-2022-32250-exploit](https://github.com/theori-io/CVE-2022-32250-exploit)
 - [Elevator：UAC Bypass by abusing RPC and debug objects.](https://github.com/Kudaes/Elevator)
-- [【Linux 提权】CVE-2022-2639-PipeVersion](https://github.com/veritas501/CVE-2022-2639-PipeVersion)
+- [【Linux 提权】CVE-2022-2639-PipeVersion](https://github.com/avboy1337/CVE-2022-2639-PipeVersion)
 - [【Linux 提权】CVE-2022-2588](https://github.com/Markakd/CVE-2022-2588)
 - [【Windows 提权】PetitPotato：通过PetitPotam进行本地提权](https://github.com/wh0Nsq/PetitPotato)
+- [LocalPotato：一个使用新potato技术来进行windows本地提权](https://github.com/decoder-it/LocalPotato)
 
 ## <span id="head6"> PC</span>
 
@@ -464,6 +472,8 @@
 
 - [【Linux提权】CVE-2021-3490：Linux kernel 缓冲区错误漏洞](https://github.com/chompie1337/Linux_LPE_eBPF_CVE-2021-3490)
 
+- [【Linux 提权】CVE-2022-2602: Linux io_uring子系统UAF漏洞漏洞利用POC,可用于本地提权](https://github.com/LukeGix/CVE-2022-2602)
+
 - [CVE-2021-34473：Microsoft Exchange Server Remote Code Execution](https://github.com/phamphuqui1998/CVE-2021-34473)|[proxyshell-auto：自动化的ProxyShell漏洞利用](https://github.com/Udyz/proxyshell-auto)
 
 - [【Linux 提权】CVE-2021-33909：Linux kernel 本地提权漏洞](https://github.com/ChrisTheCoolHut/CVE-2021-33909)
@@ -545,6 +555,11 @@
 - [CVE-2022-28281：Firefox 越界写入漏洞](https://github.com/0vercl0k/CVE-2022-28281)
 
 - [CVE-2022-34718：TCP/IP RCE POC](https://github.com/numencyber/VulnerabilityPoC/blob/main/CVE-2022-34718/poc.cpp)|[分析](https://medium.com/@numencyberlabs/analysis-and-summary-of-tcp-ip-protocol-remote-code-execution-vulnerability-cve-2022-34718-8fcc28538acf)
+
+- [ProxyNotShell-PoC：PoC for CVE-2022-41040 and CVE-2022-41082 Microsoft Exchange Server RCE](https://github.com/testanull/ProxyNotShell-PoC)
+
+- [CVE-2022-28672: Foxit PDF Reader Remote Code Execution Exploit](https://github.com/hacksysteam/CVE-2022-28672)
+
 
 ## <span id="head7"> tools-小工具集版本合</span>
 
@@ -875,6 +890,7 @@
 - [sonar-java_java代码质量检查和安全性测试](https://github.com/SonarSource/sonar-java)
 - [CSS-Exchange_微软自家出品的Exchange server检查工具](https://github.com/microsoft/CSS-Exchange)
 - [frpModify-修改frp支持域前置与配置文件自删除](https://github.com/uknowsec/frpModify)|[FrpProPlugin-frp0.33修改版,过流量检测,免杀,支持加载远程配置文件可用于cs直接使用的插件](https://github.com/mstxq17/FrpProPlugin)
+- [Erfrp：Erfrp-frp二开-免杀与隐藏](https://github.com/Goqi/Erfrp)
 - [Vulfocus-一个漏洞集成平台，将漏洞环境 docker 镜像，放入即可使用，开箱即用](https://github.com/fofapro/vulfocus)
 - [vulnReport-安服自动化脚本：包括 Nessus、天境主机漏洞扫描6.0、APPscan、awvs等漏洞报告的整理，Google翻译等](https://github.com/wysec2020/vulnReport)
 - [.NETWebShell-动态编译实现任意命令执行，Windows Defender 免杀](https://github.com/Ivan1ee/.NETWebShell)
@@ -1429,7 +1445,7 @@
 - [DCSec：域控安全one for all](https://github.com/JDArmy/DCSec)
 - [rust-windows-shellcode](https://github.com/b1tg/rust-windows-shellcode)
 - [Anti-Virus-PHP：【随机动态生成】php免杀webshell](https://github.com/JZY-nuist/Anti-Virus-PHP)
-- [Webshell_Generate：用于管理各类免杀webshell](https://github.com/cseroad/Webshell_Generate)
+- [Webshell_Generate：用于生成各类免杀webshell](https://github.com/cseroad/Webshell_Generate)
 - [C2concealer：生成用于 Cobalt Strike 的随机 C2 可延展配置文件](https://github.com/FortyNorthSecurity/C2concealer)
 - [gost：golang 写的隧道](https://github.com/go-gost/gost)
 - [wsMemShell：一种全新的内存马](https://github.com/veo/wsMemShell)
@@ -1655,6 +1671,29 @@
 - [AppInfoScanner：移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具](https://github.com/kelvinBen/AppInfoScanner)
 - [CreateUser：绕过360，火绒添加用户](https://github.com/RuanLang0777/CreateUser)
 - [geacon_pro：跨平台重构了Cobaltstrike Beacon，适配了大部分Beacon的功能，行为对国内主流杀软免杀](https://github.com/H4de5-7/geacon_pro)
+- [SharpUserIP：在域控或远程提取登录日志，快速获取域用户对应的IP地址](https://github.com/lele8/SharpUserIP)
+- [FileSearch：C++枚举磁盘列表、遍历指定盘搜索特定类型文件，微信导出密钥Socket/PUT回传，包括反射DLL版本](https://github.com/c1y2m3/FileSearch)
+- [FirmAE：物联网设备固件模拟分析](https://github.com/pr0v3rbs/FirmAE)
+- [DeimosC2：用golang开发的后渗透测试C2利用框架](https://github.com/DeimosC2/DeimosC2)
+- [YongyouNC-Unserialize-Tools：用友NC反序列化漏洞payload生成](https://github.com/Ghost2097221/YongyouNC-Unserialize-Tools)
+- [SchTask_0x727：创建隐藏计划任务，权限维持，Bypass AV](https://github.com/0x727/SchTask_0x727)
+- [jar-analyzer：一个用于分析`jar`包的GUI工具，尤其适合从事代码安全审计](https://github.com/4ra1n/jar-analyzer)
+- [SharpNTLMSSPExtract：利用 NTLMSSP 探测 Windows 信息](https://github.com/RowTeam/SharpNTLMSSPExtract)
+- [Gofreeproxy：从fofa获取公开代理，用作动态代理](https://github.com/ja9er/Gofreeproxy)
+- [vulnerable-AD：使用powershell脚本创建一个带有域漏洞的域环境](https://github.com/WazeHell/vulnerable-AD)
+- [ppmap：go编写的XSS漏洞检测扫描工具](https://github.com/kleiton0x00/ppmap)
+- [ShiroKeyCheck：gol编写的Shiro key检测爆破工具](https://github.com/myzxcg/ShiroKeyCheck)
+- [ThinkPHPLangVulCheck：一个用于自检Thinkphp多语言漏洞的工具（QVD-2022-46174-ThinkPHP远程代码执行漏洞）](https://github.com/7coinSec/ThinkPHPLangVulCheck)
+- [0dayex-checker: Zeroday Microsoft Exchange Server checker (Virtual Patching checker)](https://github.com/VNCERT-CC/0dayex-checker)
+- [fuzzuli: 一款go编写基于域名生成字典来扫描备份文件的工具](https://github.com/musana/fuzzuli)
+- [iisproxy: 通过websocket在IIS8(Windows Server 2012)以上实现socks5代理（在无法反弹socks5,仅有webshell权限时,代理进入内网，类似于reGeorg）](https://github.com/howmp/iisproxy)
+- [FilelessPELoader: 在内存中加载远程AES加密过的PE文件并解密运行](https://github.com/TheD1rkMtr/FilelessPELoader)
+- [DarkAngel：一款全自动白帽漏洞扫描器，从hackerone、bugcrowd资产监听到漏洞报告生成、企业微信通知](https://github.com/Bywalks/DarkAngel)
+- [boopkit：Linux eBPF backdoor over TCP](https://github.com/krisnova/boopkit)
+- [EDR-Bypass-demo：Some demos to bypass EDRs or AVs ](https://github.com/7BitsTeam/EDR-Bypass-demo)
+- [seeyonExp：致远命令执行漏洞系列的GUI利用工具](https://github.com/kai1025/seeyonExp)
+- [vapi：API漏洞练习靶场](https://github.com/roottusk/vapi)
+- [APIKiller：API漏洞扫描、检测工具](https://github.com/Aur0ra-m/APIKiller)
 
 ## <span id="head8"> 文章/书籍/教程相关</span>
 
@@ -1685,6 +1724,7 @@
 - [CobaltStrike4.0用户手册_中文翻译_3](./books/CobaltStrike4.0用户手册_中文翻译_3.pdf)
 - [Cobaltstrike 4.0之 我自己给我自己颁发license.pdf](./books/Cobaltstrike%204破解之%20我自己给我自己颁发license.pdf)
 - [Cobalt Strike 4.0 更新内容介绍](./books/Cobalt%20Strike%204.0%20更新内容介绍.pdf)
+- [Cobalt-Strike-Start：可能是最详细的 Cobalt Strike 中文 Wiki](https://github.com/XXC385/Cobalt-Strike-Start)
 - [Cobal_Strike_自定义OneLiner](./books/Cobal_Strike_自定义OneLiner_Evi1cg's_blog.pdf)
 - [cobalt strike 快速上手 [ 一 ]](./books/cobalt_strike_快速上手%5B%20一%20%5D.pdf)
 - [Cobalt strike3.0使用手册](./books/Cobalt_strike3.0使用手册.pdf)
@@ -2093,6 +2133,11 @@
 - [使用Sqlmap的你可能踩中了“蜜罐”](https://mp.weixin.qq.com/s/hwLNz-00YCBvBWMzJZM2Bg)|[备份](https://archive.ph/TL3wY)|[备份1](https://web.archive.org/web/20220918114117/https://mp.weixin.qq.com/s/hwLNz-00YCBvBWMzJZM2Bg)
 - [fastjson 1.2.80 漏洞分析](https://xz.aliyun.com/t/11727)|[备份](https://archive.ph/BuDzZ)|[备份二](http://web.archive.org/web/20220927064359/https://xz.aliyun.com/t/11727)
 - [ECShop 0day 的堕落之路-2.x加3.x的SQL注入和代码执行](https://paper.seebug.org/695/)|[备份一](https://archive.ph/wip/cfuYx)|[备份二](https://web.archive.org/web/20221024132558/https://paper.seebug.org/695/)
+- [AD-Pentest-Notes：内网渗透(域渗透)学习记录](https://github.com/chriskaliX/AD-Pentest-Notes)
+- [MySql安全总结](https://xz.aliyun.com/t/11910)|[备份](https://archive.ph/jhpNs)|[备份2](https://web.archive.org/web/20220000000000*/https://xz.aliyun.com/t/11910)
+- [SecurityList: 有关代码审计和web安全的仓库](https://github.com/ax1sX/SecurityList)
+- [通达oa11.9前台getshell漏洞分析](https://forum.butian.net/share/2049)|[备份](https://web.archive.org/web/20221214141510/https://forum.butian.net/share/2049)
+- [冰心网络验证V3.1-代码审计到getshell](https://forum.butian.net/index.php/share/1206)|[备份](https://web.archive.org/web/20221226034923/https://forum.butian.net/index.php/share/1206)|[备份](https://archive.ph/uxK4i)
 
 ## <span id="head9"> 说明</span>
 
